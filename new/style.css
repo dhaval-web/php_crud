@@ -1,0 +1,70 @@
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 0.2px solid gray;
+}
+
+
+input[type=textarea] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+
+input[type=file]::file-selector-button:hover {
+    background: #0d45a5;
+}
+
+textarea {
+    width: 40%;
+    height: 150px;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 40px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+input[type=radio] {
+    width: 2.15em;
+    height: 2.15em;
+}
+
+input[type=checkbox] {
+    width: 2.15em;
+    height: 2.15em;
+}
+
+input[type=submit] {
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+input[type=submit]:hover {
+    background: #0d45a5;
+    color: white;
+}
